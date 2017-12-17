@@ -9,4 +9,12 @@
     <string name="transition_tag_title_indexed">transition.title%1$d</string>
     <string name="transition_tag_image_named">transition.image%1$s</string>
     <string name="transition_tag_title_named">transition.title%1$s</string>
+
+    <!-- 店铺信息 -->
+    <string name="customer_business_name_test">西贝莜面村</string>
+    <string name="customer_business_status_closed">商家已闭店</string>
+    <string name="customer_business_status_not_approach">不在配送范围内</string>
+    <string name="customer_business_status_loss_efficacy">商家已失效</string>
+    <string name="customer_business_privilege_test">满25减8,满40减10</string>
+    <string name="customer_business_notice_welcome">欢迎光临</string>
 </resources>

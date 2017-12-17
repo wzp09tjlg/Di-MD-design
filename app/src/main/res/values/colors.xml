@@ -23,4 +23,34 @@
     <color name="cyan_300">#4dd0e1</color>
     <color name="grey_300">#e0e0e0</color>
     <color name="grey_400">#78909C</color>
+
+    <color name="white">@android:color/white</color>
+
+    <color name="customer_color_cc">#CCCCCC</color>
+    <color name="customer_color_33">#333333</color>
+    <color name="customer_color_FF7E33">#FF7E33</color>
+    <color name="customer_color_FF8A65">#FF8A65</color>
+
+    <color name="customer_color_323233">#323233</color>
+    <color name="customer_color_979797">#979797</color>
+    <color name="customer_color_999999">#999999</color>
+    <color name="customer_color_969699">#969699</color>
+    <color name="customer_color_EE">#EEEEEE</color>
+    <color name="customer_color_FCFCFC">#FCFCFC</color>
+    <color name="customer_color_E6E6E6">#E6E6E6</color>
+    <color name="customer_color_66">#666666</color>
+    <color name="customer_color_00">#000000</color>
+
+    <color name="customer_color_CCCCCC">#CCCCCC</color>
+    <color name="customer_color_333333">#333333</color>
+    <color name="customer_color_FFFFFF">#FFFFFF</color>
+    <color name="customer_color_66FFFFFF">#66FFFFFF</color>
+    <color name="customer_color_FFFF7F33">#FFFF7F33</color>
+    <color name="customer_color_FF6161">#FF6161</color>
+    <color name="customer_color_80333333">#80333333</color>
+    <color name="customer_color_00000000">#00000000</color>
+    <color name="customer_color_00FFFFFF">#00FFFFFF</color>
+    <color name="customer_color_1A000000">#1A000000</color>
+    <color name="customer_color_4D000000">#4D000000</color>
+    <color name="customer_color_FC9153">#FC9153</color>
 </resources>
