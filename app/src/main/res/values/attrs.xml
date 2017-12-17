@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CoordinatorLayoutCompat -->
+    <declare-styleable name="CoordinatorLayoutCompat">
+        <attr name="zoomId" format="reference|integer" />
+    </declare-styleable>
+</resources>
