@@ -35,9 +35,7 @@ public class TitleBarBehavior extends CoordinatorLayout.Behavior<FrameLayout> {
             mTargetBottom = dependency.getBottom();
         }
         float bottom = dependency.getBottom();
-        if (bottom > mTargetBottom) {
-            bottom = mTargetBottom;
-        }
+
 
         float percent = bottom / mTargetBottom;
 
