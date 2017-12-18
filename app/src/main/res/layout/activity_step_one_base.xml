@@ -62,10 +62,98 @@
             android:id="@+id/iv_business_back"
             android:layout_width="18dp"
             android:layout_height="18dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="16.5dp"
             android:scaleType="centerCrop"
             android:src="@drawable/common_icon_back_normal" />
 
     </FrameLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_business_info"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="75dp"
+        app:cardElevation="5dp"
+        app:layout_behavior="com.wuzp.didi.md_design_analyse.view.stepOne.behavior.CardInfoBehavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_business_card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45.5dp"
+                android:text=""
+                android:textColor="@color/customer_color_33"
+                android:textSize="20sp"
+                tools:text="@string/customer_business_name_test"/>
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="53.5dp"
+                android:layout_toRightOf="@id/tv_business_card_name"
+                android:src="@drawable/common_icon_right02_nor" />
+
+            <TextView
+                android:id="@+id/tv_business_status"
+                android:layout_width="wrap_content"
+                android:layout_height="16.5dp"
+                android:layout_below="@+id/tv_business_card_name"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textColor="@color/customer_color_33"
+                android:textSize="12sp"
+                tools:text="@string/customer_business_status_closed"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_business_privilege"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@+id/tv_business_card_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_business_privilege"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:gravity="center"
+                    android:includeFontPadding="false" />
+
+                <TextView
+                    android:id="@+id/tv_business_privilege_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@id/tv_business_privilege"
+                    android:text=""
+                    android:textColor="@color/customer_color_66"
+                    android:textSize="12sp"
+                    tools:text="@string/customer_business_privilege_test" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_business_notice"
+                android:layout_width="wrap_content"
+                android:layout_height="14.5dp"
+                android:layout_below="@id/tv_business_card_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="51dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/customer_color_999999"
+                android:textSize="12sp"
+                tools:text="@string/customer_business_notice_welcome"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
 </com.wuzp.didi.md_design_analyse.widget.CoordinatorLayoutCompat>
